@@ -16,7 +16,8 @@
 - [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%95%95%EC%B6%95/Main.py)
 - [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9/Main.py)
 - [메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%A9%94%EB%89%B4%20%EB%A6%AC%EB%89%B4%EC%96%BC/Main.py)
-
+- [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EA%B4%84%ED%98%B8%20%EB%B3%80%ED%99%98/Main.py)
+- [[1차]뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%5B1%EC%B0%A8%5D%EB%89%B4%EC%8A%A4%20%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81/Main.py)
 
 ## Summer/Winter Coding(2019)
 - [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%A9%80%EC%A9%A1%ED%95%9C%20%EC%82%AC%EA%B0%81%ED%98%95/Main.py)
