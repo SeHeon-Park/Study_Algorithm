@@ -21,7 +21,7 @@
 - [거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EA%B1%B0%EB%A6%AC%EB%91%90%EA%B8%B0%20%ED%99%95%EC%9D%B8%ED%95%98%EA%B8%B0/Main.py)
 - [[카카오 인턴] 수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257?language=python3) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%5B%EC%B9%B4%EC%B9%B4%EC%98%A4%20%EC%9D%B8%ED%84%B4%5D%20%EC%88%98%EC%8B%9D%20%EC%B5%9C%EB%8C%80%ED%99%94/Main.py) -> 다시 풀어보기
 - [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%8A%9C%ED%94%8C/Main.py)
-- [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%88%9C%EC%9C%84%20%EA%B2%80%EC%83%89/Main.py)
+- [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%88%9C%EC%9C%84%20%EA%B2%80%EC%83%89/Main.py) -> 효율성 검사 부분 미흡(다시 )
 
 ## Summer/Winter Coding(2019)
 - [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%A9%80%EC%A9%A1%ED%95%9C%20%EC%82%AC%EA%B0%81%ED%98%95/Main.py)
