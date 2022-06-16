@@ -23,8 +23,7 @@
 - [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%8A%9C%ED%94%8C/Main.py)
 - [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%88%9C%EC%9C%84%20%EA%B2%80%EC%83%89/Main.py) -> 효율성 검사 부분 미흡(다시 풀기)
 - [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%9B%84%EB%B3%B4%ED%82%A4/Main.py)
-
--[[1차]프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%5B1%EC%B0%A8%5D%20%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D/Main.py)
+- [[1차]프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%5B1%EC%B0%A8%5D%20%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D/Main.py)
 
 ## Summer/Winter Coding(2019)
 - [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%A9%80%EC%A9%A1%ED%95%9C%20%EC%82%AC%EA%B0%81%ED%98%95/Main.py)
