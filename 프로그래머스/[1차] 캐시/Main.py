@@ -18,3 +18,18 @@ def solution(cacheSize, cities):
         if len(deq) == cacheSize+1:
             deq.popleft()
     return answer
+
+
+- LRU(Least Recently Used)
+가장 오랫동안 참조하지 않은 페이지를 캐시에서 교체하는 것
+- LFU(Least Frequently Used)
+가장 적게 참조한 페이지를 캐시에서 교체하는 것
+
+[캐시 적중] 
+이미 캐시에 있던 페이지를 가장 처음으로 가져온다.
+
+[캐시 미스]
+- 캐시가 가득 찬 경우
+가장 뒤(참조한지 가장 오래된)의 페이지를 삭제하고 가장 앞에 새 페이지를 삽입한다.
+- 캐시에 자리가 있는 경우
+가장 앞에 새 페이지를 삽입한다.
