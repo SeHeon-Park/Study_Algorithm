@@ -3,7 +3,7 @@ def get_alpha():
     alpha = 'A'
     for i in range(1, 27):
         dic[alpha] = i
-        alpha = chr(ord(alpha)+1)
+        alpha = chr(ord(alpha)+1)  # ord: str -> int, chr: int -> str
     return dic
 
 def solution(msg):
