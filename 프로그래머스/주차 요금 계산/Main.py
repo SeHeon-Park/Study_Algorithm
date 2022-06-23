@@ -5,7 +5,7 @@ def get_fee(time, fees):
     if time <= fees[0]:
         return fees[1]
     else:
-        return fees[1] + math.ceil((time-fees[0])/fees[2])*fees[3]
+        return fees[1] + math.ceil((time-fees[0])/fees[2])*fees[3]  # ceil: 올림, floor: 내림, round: 반올림
     
 def get_time(i, o, fees):
     i_time = re.split(":", i)
