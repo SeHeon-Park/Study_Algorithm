@@ -14,7 +14,7 @@
 
 ## level 1
 ### 카카오
-- [[카카오 인턴십]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%88%84%EB%A5%B4%EA%B8%B0/Main.py) : [[code]](https://programmers.co.kr/learn/courses/30/lessons/67256)
+- [[카카오 인턴십]키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%88%84%EB%A5%B4%EA%B8%B0/Main.py)
 
 ## Level 2
 ### 카카오
