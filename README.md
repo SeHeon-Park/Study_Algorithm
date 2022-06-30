@@ -12,6 +12,10 @@
 - [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%8B%A4%EB%A6%AC%EB%A5%BC%20%EC%A7%80%EB%82%98%EB%8A%94%20%ED%8A%B8%EB%9F%AD/Main.py)
 - [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%A3%BC%EC%8B%9D%20%EA%B0%80%EA%B2%A9/Main.py)
 
+## Level 1
+### 카카오
+- [[카카오 인턴십]키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%88%84%EB%A5%B4%EA%B8%B0/Main.py)
+
 ## Level 2
 ### 카카오
 - [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%95%95%EC%B6%95/Main.py)
@@ -39,7 +43,7 @@
 - [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%8B%A4%EC%9D%8C%20%ED%81%B0%20%EC%88%AB%EC%9E%90/Main.py)
 - [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%81%B0%20%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Main.py)
 - [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/124%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%88%AB%EC%9E%90/Main.py)
-
-
+- [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%8A%A4%ED%82%AC%ED%8A%B8%EB%A6%AC/Main.py)
+---
 # 백준
 - [9019번 DSLR](https://www.acmicpc.net/problem/9019) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/9019%EB%B2%88%20DSLR/Main.py)
