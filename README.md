@@ -49,6 +49,9 @@
 - [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%A7%9D%EC%A7%80%EC%96%B4%20%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0/Main.py)
 - [피로고](https://programmers.co.kr/learn/courses/30/lessons/87946#) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%94%BC%EB%A1%9C%EB%8F%84/Main.py)
 - [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%B0%A9%EB%AC%B8%20%EA%B8%B8%EC%9D%B4/Main.py)
+- [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%88%AB%EC%9E%90%EC%9D%98%20%ED%91%9C%ED%98%84/Main.py)
+- [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/JadenCase%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Main.py)
 ---
 # 백준
 - [9019번 DSLR](https://www.acmicpc.net/problem/9019) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/9019%EB%B2%88%20DSLR/Main.py)
+- [5525번 IOIOI](https://www.acmicpc.net/submit/5525) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/5525%EB%B2%88%20IOIOI/Main.py)
