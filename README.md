@@ -15,6 +15,7 @@
 ## Level 1
 ### 카카오
 - [[카카오 인턴십]키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%82%A4%ED%8C%A8%EB%93%9C%20%EB%88%84%EB%A5%B4%EA%B8%B0/Main.py)
+- [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%8B%A0%EA%B7%9C%20%EC%95%84%EC%9D%B4%EB%94%94%20%EC%B6%94%EC%B2%9C/Main.py)
 
 ## Level 2
 ### 카카오
@@ -44,6 +45,13 @@
 - [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%81%B0%20%EC%88%98%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Main.py)
 - [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/124%20%EB%82%98%EB%9D%BC%EC%9D%98%20%EC%88%AB%EC%9E%90/Main.py)
 - [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%8A%A4%ED%82%AC%ED%8A%B8%EB%A6%AC/Main.py)
+- [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%8D%94%20%EB%A7%B5%EA%B2%8C/Main.py)
+- [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%A7%9D%EC%A7%80%EC%96%B4%20%EC%A0%9C%EA%B1%B0%ED%95%98%EA%B8%B0/Main.py)
+- [피로도](https://programmers.co.kr/learn/courses/30/lessons/87946#) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%ED%94%BC%EB%A1%9C%EB%8F%84/Main.py)
+- [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EB%B0%A9%EB%AC%B8%20%EA%B8%B8%EC%9D%B4/Main.py)
+- [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/%EC%88%AB%EC%9E%90%EC%9D%98%20%ED%91%9C%ED%98%84/Main.py)
+- [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/JadenCase%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%A7%8C%EB%93%A4%EA%B8%B0/Main.py)
 ---
 # 백준
 - [9019번 DSLR](https://www.acmicpc.net/problem/9019) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/9019%EB%B2%88%20DSLR/Main.py)
+- [5525번 IOIOI](https://www.acmicpc.net/submit/5525) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/5525%EB%B2%88%20IOIOI/Main.py)
