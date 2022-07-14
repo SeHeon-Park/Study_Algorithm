@@ -8,8 +8,7 @@ def solution(maps):
     dx = [1, 0, 0, -1]
     dy = [0, 1, -1, 0]
     while Q:
-        info = Q.popleft()
-        x, y, cnt = info[0], info[1], info[2]
+        x, y, cnt = Q.popleft()
         if x == len(maps[0])-1 and y == len(maps)-1:
             ans = min(cnt, ans)
             continue
@@ -24,6 +23,7 @@ def solution(maps):
     if ans == math.inf:
         return -1
     return ans
+
 
 주의!
 - dfs를 이용하면 효율성 통과x
