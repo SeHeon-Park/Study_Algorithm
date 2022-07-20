@@ -73,5 +73,11 @@
 
 ---
 # 백준
+
+<details markdown="1">
+<summary>문제</summary>
+
 - [9019번 DSLR](https://www.acmicpc.net/problem/9019) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/9019%EB%B2%88%20DSLR/Main.py)
 - [5525번 IOIOI](https://www.acmicpc.net/submit/5525) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/5525%EB%B2%88%20IOIOI/Main.py)
+
+</>
