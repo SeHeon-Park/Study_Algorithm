@@ -71,7 +71,6 @@
 
 </details>
 
----
 # 백준
 
 <details markdown="1">
