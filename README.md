@@ -79,6 +79,8 @@
 - [9019번 DSLR](https://www.acmicpc.net/problem/9019) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/9019%EB%B2%88%20DSLR/Main.py)
 - [5525번 IOIOI](https://www.acmicpc.net/submit/5525) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/5525%EB%B2%88%20IOIOI/Main.py)
 - [12865번 평범한 배낭](https://www.acmicpc.net/problem/12865) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/12865%EB%B2%88%20%ED%8F%89%EB%B2%94%ED%95%9C%20%EB%B0%B0%EB%82%AD/Main.py)
-- [1655번 가운데를 말해요](https://www.acmicpc.net/problem/1655) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/1655%EB%B2%88%20%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%A5%BC%20%EB%A7%90%ED%95%B4%EC%9A%94/Main.py)
+- [1655번 가운데를 말해요](https://www.acmicpc.net/problem/1655) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/1655%EB%B2%88%20%EA%B0%80%EC%9A%B4%EB%8D%B0%EB%A5%BC%20%EB%A7%90%ED%95%B4%EC%9A%94/Main.py)10
+- [10830번 행렬 제곱](https://www.acmicpc.net/problem/10830) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/10830%EB%B2%88%20%ED%96%89%EB%A0%AC%20%EC%A0%9C%EA%B3%B1/Main.py)
+
 
 </details>
