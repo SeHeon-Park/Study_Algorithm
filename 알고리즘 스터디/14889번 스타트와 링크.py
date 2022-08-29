@@ -1,4 +1,4 @@
-## 나의 풀이(combinations 써버렸다..)
+## 나의 풀이(combinations)
 from itertools import combinations
 import math
 import sys
