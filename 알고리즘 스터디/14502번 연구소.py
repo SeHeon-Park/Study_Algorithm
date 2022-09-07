@@ -1,52 +1,52 @@
+import sys
+import copy
+import math
 from collections import deque
 
-t = int(input())
+input = sys.stdin.readline
 
-for i in range(t):
-    A, B = map(int, input().split())
-    Q = deque()
-    Q.append((A, ''))
-    visit = [0 for _ in range(10000)]
+
+def bfs():
+    cnt = 0
+    N = copy.deepcopy(M)
+    visited = [[0 for _ in range(m)] for _ in range(n)]
+    du = [0, 1, 0, -1]
+    dv = [1, 0, -1, 0]
+    for i in range(n):
+        for j in range(m):
+            if M[i][j] == 2:
+                Q.append((i, j))
     while Q:
-        num1, path = Q.popleft()
+        qu, qv = Q.popleft()
+        for zu, zv in zip(du, dv):
+            u = qu + zu
+            v = qv + zv
+            if 0 <= u < n and 0 <= v < m and N[u][v] == 0 and not visited[u][v]:
+                N[u][v] = 2
+                visited[u][v] = 1
+                Q.append((u, v))
+    cnt += N.count(0)
+    return cnt
 
-        # D
-        num2 = 2 * num1
-        if num2 > 9999:
-            num2 = num2 % 10000
-        if num2 == B:
-            print(path+'D')
-            break
-        if not visit[num2]:
-            visit[num2] = 1
-            Q.append((num2, path + 'D'))
 
-        # S
-        if num1 == 0:
-            num2 = 9999
-        else:
-            num2 = num1 - 1
-        if num2 == B:
-            print(path+'S')
-            break
-        if not visit[num2]:
-            visit[num2] = 1
-            Q.append((num2, path + 'S'))
+def make_wall(cnt):
+    global maximum
+    if cnt == 3:
+        maximum = max(maximum, bfs())
+        return
+    for i in range(n):
+        for j in range(m):
+            if M[i][j] == 0:
+                M[i][j] = 1
+                make_wall(cnt + 1)
+                M[i][j] = 0
 
-        # L
-        num2 = (num1 % 1000) * 10 + num1 // 1000
-        if num2 == B:
-            print(path+'L')
-            break
-        if not visit[num2]:
-            visit[num2] = 1
-            Q.append((num2, path + 'L'))
 
-        # R
-        num2 = (num1 % 10) * 1000 + num1 // 10
-        if num2 == B:
-            print(path+'R')
-            break
-        if not visit[num2]:
-            visit[num2] = 1
-            Q.append((num2, path + 'R'))
+n, m = map(int, input().split())
+M = [[int(x) for x in input().split()] for _ in range(n)]
+Q = deque()
+maximum = -math.inf
+
+make_wall(0)
+
+print(maximum)
