@@ -25,7 +25,8 @@ def bfs():
                 N[u][v] = 2
                 visited[u][v] = 1
                 Q.append((u, v))
-    cnt += N.count(0)
+    for c in N:
+        cnt += c.count(0)
     return cnt
 
 
