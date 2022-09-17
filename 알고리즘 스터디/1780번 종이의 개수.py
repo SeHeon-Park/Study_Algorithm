@@ -2,11 +2,11 @@ import sys
 input = sys.stdin.readline
 
 def recursive(u, v, k):
+    s = M[u][v]
     if k == 1:
-        dic[M[u][v]] = dic[M[u][v]] + 1
+        dic[s] = dic[s] + 1
         return
 
-    s = M[u][v]
     flag = 0
     for i in range(u, u+k):
         for j in range(v, v+k):
@@ -17,10 +17,9 @@ def recursive(u, v, k):
         dic[s] = dic[s] + 1
         return
 
-    t = k//3
     for i in range(3):
         for j in range(3):
-            recursive(u+i*t, v+j*t, k//3)
+            recursive(u+i*k//3, v+j*k//3, k//3)
     return
 
 n = int(input())
