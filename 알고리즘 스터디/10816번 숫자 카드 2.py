@@ -9,7 +9,6 @@ m = int(input())
 M = [[int(x)] for x in input().split()]
 
 ans = [0 for _ in range(m)]
-dic = {}
 for i in range(m):
     M[i].append(i)
 
