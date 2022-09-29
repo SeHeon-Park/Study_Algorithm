@@ -90,8 +90,12 @@
 <details markdown="1">
 <summary>브루트 포스</summary>
 - [2529번 부등호](https://www.acmicpc.net/problem/2529) : [[code]]()
+- 
 - [13339번 단어 수학](https://www.acmicpc.net/problem/1339) : [[code]]()
+- 
 - [14888번 연산자 끼워넣기](https://www.acmicpc.net/problem/14888) : [[code]]()
+- 
 - [14889번 스타트와 링크](https://www.acmicpc.net/problem/14889) : [[code]]()
+- 
 - [6603번 로또](https://www.acmicpc.net/problem/6603) : [[code]]()
 </details>
