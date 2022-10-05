@@ -85,5 +85,15 @@
 - [2252번 줄 세우기](https://www.acmicpc.net/problem/2252) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/2252%EB%B2%88%20%EC%A4%84%20%EC%84%B8%EC%9A%B0%EA%B8%B0/Main.py)
 - [3584번 가장 가까운 공통 조상](https://www.acmicpc.net/problem/3584) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/3584%EB%B2%88%20%EA%B0%80%EC%9E%A5%20%EA%B0%80%EA%B9%8C%EC%9A%B4%20%EA%B3%B5%ED%86%B5%20%EC%A1%B0%EC%83%81/Main.py)
 - [14725번 개미굴](https://www.acmicpc.net/problem/14725) : [[code]](https://github.com/SeHeon-Park/Study_Algorithm/blob/master/%EB%B0%B1%EC%A4%80/14725%EB%B2%88%20%EA%B0%9C%EB%AF%B8%EA%B5%B4/Main.py) (트라이 알고리즘)
+</details>
+
+<details markdown="1">
+<summary>브루트 포스</summary>
+
+- [2529번 부등호](https://www.acmicpc.net/problem/2529) : [[code]]()
+- [13339번 단어 수학](https://www.acmicpc.net/problem/1339) : [[code]]()
+- [14888번 연산자 끼워넣기](https://www.acmicpc.net/problem/14888) : [[code]]()
+- [14889번 스타트와 링크](https://www.acmicpc.net/problem/14889) : [[code]]()
+- [6603번 로또](https://www.acmicpc.net/problem/6603) : [[code]]()
 
 </details>
