@@ -1,8 +1,7 @@
 import sys, math
 input = sys.stdin.readline
 
-answer = []
-n = -1
+case = 1
 
 while True:
     T, S, pre, pre_T = [], [], [], []
@@ -54,7 +53,5 @@ while True:
                 l -= 2
         height -= 1
 
-    answer.append(ans)
-
-for i in range(len(answer)):
-    print("{}. {}".format(i+1, answer[i]))
+    print("{}. {}".format(case, ans))
+    case += 1
