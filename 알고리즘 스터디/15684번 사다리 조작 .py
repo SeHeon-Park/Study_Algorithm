@@ -43,9 +43,10 @@ def dfs(A, cnt, idx):
         ans = min(ans, cnt)
         return
     for b in range(idx, len(B)):
-        A[B[b][0]][B[b][1]] = 1
-        dfs(A, cnt+1, b+1)
-        A[B[b][0]][B[b][1]] = 0
+        if not A[B[b][0]][B[b][1]-1] and not A[B[b][0]][B[b][1]+1]:
+            A[B[b][0]][B[b][1]] = 1
+            dfs(A, cnt+1, b+1)
+            A[B[b][0]][B[b][1]] = 0
     return
 
 
@@ -54,4 +55,3 @@ if ans != math.inf:
     print(ans)
 else:
     print(-1)
-
