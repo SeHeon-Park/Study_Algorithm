@@ -17,7 +17,6 @@ for t in range(10):
             break
         heapq.heappush(MAX, a + 1)
         heapq.heappush(MIN, b + 1)
- 
     if flag:
         print("#{} {}".format(t + 1, -a - b))
     else:
