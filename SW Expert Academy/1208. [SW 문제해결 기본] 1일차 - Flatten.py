@@ -1,5 +1,5 @@
 import heapq
- 
+
 for t in range(10):
     n = int(input())
     MIN = [int(x) for x in input().split()]
