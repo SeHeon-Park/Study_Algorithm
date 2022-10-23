@@ -1,23 +1,21 @@
 T = int(input())
 
-
-def recursion(idx, temp):
-    A.add(temp)
-    if idx == n:
-        return
-    print(A)
-    for a in A:
-        if M[idx] not in A:
-            recursion(idx+1, M[idx])
-        if a+M[idx] not in A:
-            recursion(idx+1, a+M[idx])
-    return
-
-
 for t in range(T):
     n = int(input())
     M = [int(x) for x in input().split()]
+    S = set()
     A = set()
+    S.add(0)
     A.add(0)
-    recursion(0, 0)
+    for m in M:
+        temp = []
+        for s in S:
+            if m not in S:
+                A.add(m)
+                temp.append(m)
+            if m + s not in S:
+                A.add(m + s)
+                temp.append(m + s)
+        for a in temp:
+            S.add(a)
     print("#{} {}".format(t + 1, len(A)))
