@@ -27,4 +27,3 @@ for t in range(10):
                 ans += 1
                 status = 0
     print("#{} {}".format(t+1, ans))
-
