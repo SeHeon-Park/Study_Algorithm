@@ -9,7 +9,9 @@ for _ in range(n):
     S.add(input())
 
 for _ in range(m):
-    if input() in S:
+    a = input()
+    if a in S:
+        print(a, S)
         cnt += 1
 
 print(cnt)
