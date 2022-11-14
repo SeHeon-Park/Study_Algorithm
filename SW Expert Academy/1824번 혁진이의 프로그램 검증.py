@@ -25,7 +25,6 @@ for t in range(T):
         for j in range(c):
             if 48 <= ord(G[i][j]) <= 57:
                 G[i][j] = int(G[i][j])
-
     # 오, 아, 왼, 위
     dx = [1, 0, -1, 0]
     dy = [0, 1, 0, -1]
