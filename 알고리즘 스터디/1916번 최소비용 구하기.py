@@ -46,8 +46,8 @@ n = int(input())
 m = int(input())
 dic = defaultdict(dict)
 H = []
-visited = [0 for _ in range(n)]
-dist = [math.inf for _ in range(n)]
+visited = [0] * n
+dist = [math.inf] * n
 
 for _ in range(m):
     a, b, w = map(int, input().split())
@@ -76,3 +76,4 @@ while H:
             cur = i
             m = dist[i]
 
+print(dist[e-1])
