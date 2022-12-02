@@ -15,7 +15,7 @@ def solution(alp, cop, problems):
 
     if max_alp <= 0 and max_cop <= 0:
         return 0
-    dp = [[int(x + y) for x in range(max_cop + 2)] for y in range(max_alp + 2)]
+    dp = [[int(x + y) for x in range(max_cop+1)] for y in range(max_alp+1)]
 
     for i in range(max_alp + 1):
         for j in range(max_cop + 1):
