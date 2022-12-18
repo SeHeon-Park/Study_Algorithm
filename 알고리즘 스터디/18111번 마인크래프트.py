@@ -42,7 +42,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class Hello {
+public class Main {
 
     static Integer[] M;
     static int MAX = 0;
