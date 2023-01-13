@@ -60,9 +60,3 @@ def solution(today, terms, privacies):
         idx += 1
 
     return answer
-
-
-
-
-print(solution("2022.02.28", ["A 23"], ["2020.01.28 A"]))
-
