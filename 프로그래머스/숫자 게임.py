@@ -4,7 +4,6 @@ def solution(A, B):
     answer = 0
     A.sort()
     B.sort(reverse=True)
-    ans = []
     idx = len(B)
     for b in B:
         if idx == 0:
