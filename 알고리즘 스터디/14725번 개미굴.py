@@ -1,4 +1,4 @@
-- 트라이 알고리즘 적용 풀이
+# 트라이 알고리즘 적용 풀이
 
 class Trie(object):
     def __init__(self):
@@ -30,7 +30,7 @@ for i in range(n):
 trie.print(trie.head)
 
 
-- 처음 푼 코드
+# 처음 푼 코드
 
 import sys
 
