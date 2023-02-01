@@ -24,7 +24,7 @@ for i in range(n):
     print(-heapMax[0])
 
 
-- 정석 풀이
+# 정석 풀이
 
 import heapq
 import sys
