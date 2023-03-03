@@ -27,7 +27,6 @@ for t in range(T):
     n = int(input())
     preorder = [int(x) for x in input().split()]
     inorder = [int(x) for x in input().split()]
-    root = preorder[0]
     S = set()
     ans = []
     # 좌 우 중
