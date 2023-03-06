@@ -51,37 +51,6 @@ for _ in range(n):
 ans = 0
 for i in range(n):
     for j in range(m):
-        if i-1 >= 0 and j+1 <= m-1:
-            visited[i][j] = 1
-            visited[i-1][j] = 1
-            visited[i][j + 1] = 1
-            dfs(i, M[i][j]*2 + M[i-1][j] + M[i][j+1])
-            visited[i][j] = 0
-            visited[i-1][j] = 0
-            visited[i][j+1] = 0
-        if i-1 >= 0 and j-1 >= 0:
-            visited[i][j] = 1
-            visited[i-1][j] = 1
-            visited[i][j-1] = 1
-            dfs(i, M[i][j]*2 + M[i-1][j] + M[i][j-1])
-            visited[i][j] = 0
-            visited[i-1][j] = 0
-            visited[i][j-1] = 0
-        if i+1 <= n-1 and j+1 <= m-1:
-            visited[i][j] = 1
-            visited[i+1][j] = 1
-            visited[i][j+1] = 1
-            dfs(i, M[i][j]*2 + M[i+1][j] + M[i][j+1])
-            visited[i][j] = 0
-            visited[i+1][j] = 0
-            visited[i][j+1] = 0
-        if i+1 <= n-1 and j-1 >= 0:
-            visited[i][j] = 1
-            visited[i+1][j] = 1
-            visited[i][j-1] = 1
-            dfs(i, M[i][j]*2 + M[i+1][j] + M[i][j-1])
-            visited[i][j] = 0
-            visited[i+1][j] = 0
-            visited[i][j-1] = 0
+        dfs(i, 0)
 print(ans)
 
