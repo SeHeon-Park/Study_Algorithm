@@ -1,3 +1,40 @@
+## 한층 성장한 나의 풀이 ^^
+from heapq import heappush, heappop
+import sys
+
+input = sys.stdin.readline
+
+H_max = []
+H_min = []
+H = []
+
+c = int(input())
+check = [0 for _ in range(c)]
+
+for i in range(c):
+    n = int(input())
+    H.append(n)
+
+a, b = max(H[0], H[1]), min(H[0], H[1])
+print(H[0])
+print(b)
+H_max.append(-b)
+H_min.append(a)
+
+for i in range(2, c):
+    target = H[i]
+    if H_min[0] >= target:
+        heappush(H_max, -target)
+    else:
+        heappush(H_min, target)
+    if len(H_max) - len(H_min) == 2:
+        heappush(H_min, -heappop(H_max))
+    elif len(H_min) > len(H_max):
+        heappush(H_max, -heappop(H_min))
+    print(-H_max[0])
+
+
+## 옛날 풀이
 import heapq
 import sys
 
@@ -24,8 +61,7 @@ for i in range(n):
     print(-heapMax[0])
 
 
-# 정석 풀이
-
+## 정석 풀이
 import heapq
 import sys
 
