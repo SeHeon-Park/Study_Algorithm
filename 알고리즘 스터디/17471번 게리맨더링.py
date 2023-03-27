@@ -10,7 +10,6 @@ def dfs(cur):
             return
         S.add(T)
         g.append(cur)
-        g.append(cur)
         return
     for i in range(n):
         if visited[i]:
