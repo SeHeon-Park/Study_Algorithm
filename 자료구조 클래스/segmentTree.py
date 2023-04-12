@@ -1,5 +1,8 @@
 n = int(input())
-T = [int(x) for x in range(n*4)]
+M = []
+for _ in range(n):
+    M.append(int(input()))
+T = [0 for _ in range(n*4)]
 
 def merge(left, right):
     return left+right
@@ -7,7 +10,7 @@ def merge(left, right):
 # 트리 만들기
 def build(node, node_left, node_right):
     if node_left == node_right:
-        T[node] = T[node_left]
+        T[node] = M[node_left]
         return T[node]
 
     mid = (node_left + node_right) // 2
@@ -53,7 +56,7 @@ def update(idx, val):
     return update_rec(idx, val, 1, 0, n-1)
 
 
-# update 여러개 (별차이 없음, 안좋음 -> lazy propagation 사용해야함)
+# update 여러개 (별차이 없음, 안좋음->lazy propagation 사용해야함)
 def update_range_rec(left, right, val, node, node_left, node_right):
     # 범위를 벗어나면 그대로 값 반환
     if right < node_left or node_right < left:
@@ -76,4 +79,3 @@ def update_range(left, right, val):
 
 
 build(1, 0, n-1)
-print(query(2, 5))
