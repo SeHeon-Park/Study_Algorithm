@@ -1,10 +1,13 @@
 import sys
 input = sys.stdin.readline
 
+# 합, min, max, gcd 등 전부다 가능
 def merge(left, right):
     return left+right
 
+# 트리 만들기
 def make_Tree(idx, left, right):
+    # 리프 노드 도달
     if left == right:
         tree[idx] = M[left]
         return tree[idx]
@@ -15,9 +18,12 @@ def make_Tree(idx, left, right):
     return tree[idx]
 
 
+# 구간합 구하기
 def query_rec(left_idx, right_idx, idx, left, right):
+    # 범위 안에 있으면 그냥 반환
     if left >= left_idx and right <= right_idx:
         return tree[idx]
+    # 범위 안에 없으면 0 반환
     if right < left_idx or left > right_idx:
         return 0
     mid = (left+right)//2
@@ -29,16 +35,18 @@ def query(left_idx, right_idx):
     return query_rec(left_idx, right_idx, 1, 0, n-1)
 
 
+# update
 def update_rec(u_idx, val, idx, left, right):
+    # u_idx가 범위 안에 없으면 update 암함
     if u_idx > right or u_idx < left:
         return tree[idx]
+    # u_idx를 찾으면 update
     if left == right:
         tree[idx] = val
         return tree[idx]
     mid = (left+right)//2
     left_val = update_rec(u_idx, val, idx*2, left, mid)
     right_val = update_rec(u_idx, val, idx*2+1, mid+1, right)
-
     tree[idx] = merge(left_val, right_val)
     return tree[idx]
 
