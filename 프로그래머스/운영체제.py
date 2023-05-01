@@ -27,7 +27,3 @@ def solution(program):
             continue
     answer[0] = time
     return answer
-
-# solution([[2, 0, 10], [1, 5, 5], [3, 5, 3], [3, 12, 2]])
-# solution([[3, 6, 4], [4, 2, 5], [1, 0, 5], [5, 0, 5]])
-solution([[1, 1, 2], [2, 4, 2], [3, 7, 1]])
