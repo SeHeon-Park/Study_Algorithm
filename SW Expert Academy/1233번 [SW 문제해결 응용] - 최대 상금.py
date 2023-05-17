@@ -1,36 +1,54 @@
-import math, copy
-from collections import deque
-from itertools import permutations
+def dfs(idx, cnt):
+    global ans
+    if cnt == 0:
+        s = ""
+        for m in M:
+            s += str(m)
+        ans = max(ans, int(s))
+        return
 
-def make_number(A):
-    result, temp = 0, 1
-    for a in range(len(A)-1, -1, -1):
-        result += A[a] * temp
-        temp *= 10
-    return result
+    if idx > len(M)-1:
+        s = ""
+        flag = 0
+        for i in range(len(M)-1):
+            if flag:
+                break
+            for j in range(i+1, len(M)):
+                if M[i] == M[j]:
+                    flag = 1
+                    break
 
-t = int(input())
+        if flag or cnt % 2 == 0:
+            for m in M:
+                s += str(m)
+        else:
+            for i in range(len(M)-2):
+                s += str(M[i])
+            s += (str(M[-1]) + str(M[-2]))
+        ans = max(ans, int(s))
+        return
 
-for i in range(t):
-    Q = deque()
-    ans = -math.inf
+    p = M[idx]
+    for i in range(idx+1, len(M)):
+        if p < M[i]:
+            p = M[i]
+
+    if p != M[idx]:
+        for i in range(idx+1, len(M)):
+            if p == M[i]:
+                M[idx], M[i] = M[i], M[idx]
+                dfs(idx+1, cnt-1)
+                M[idx], M[i] = M[i], M[idx]
+    else:
+        dfs(idx+1, cnt)
+
+
+T = int(input())
+for t in range(1, T+1):
     n, c = map(int, input().split())
-    N = list(map(int, str(n))) + [0]
-    P = [int(i) for i in range(len(N)-1)]
-    S = set()
-    Q.append(N)
-    while Q:
-        T = Q.popleft()
-        if T[-1] == c:
-            ans = max(ans, make_number(T[:-1]))
-            continue
-        for p in permutations(P, 2):
-            if T[p[0]] > T[p[1]]:
-                continue
-            B = copy.deepcopy(T)
-            B[p[0]], B[p[1]] = B[p[1]], B[p[0]]
-            B[-1] = B[-1] + 1
-            if tuple(B) not in S:
-                S.add(tuple(B))
-                Q.append(B)
-    print("#{} {}".format(i+1, ans))
+    M = list(str(n))
+    ans = 0
+    for i in range(len(M)):
+        M[i] = int(M[i])
+    dfs(0, c)
+    print("#{0} {1}".format(t, ans))
