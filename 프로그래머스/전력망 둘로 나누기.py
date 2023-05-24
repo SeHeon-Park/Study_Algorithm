@@ -24,9 +24,8 @@ def solution(n, wires):
                     visited[target] = 1
                     Q.append(target)
             C.append(cnt)
-        print(C)
         ans = min(ans, abs(C[0]-C[1]))
 
     return ans
 
-solution(9, [[1,3],[2,3],[3,4],[4,5],[4,6],[4,7],[7,8],[7,9]])
+
