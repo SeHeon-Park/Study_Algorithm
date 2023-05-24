@@ -1,7 +1,7 @@
 from collections import defaultdict, deque
 
 def solution(n, wires):
-    ans = 51
+    ans = int(1e9)
     tree = defaultdict(list)
     for w in wires:
         tree[w[0]].append(w[1])
