@@ -30,7 +30,6 @@ for _ in range(k):
                         Y[i][j] = Y[i][j] - T[t]
                         alive.append(T[t]+1)
                 A[i][j] = alive
-                ## 여름
                 for d in dead:
                     Y[i][j] += d//2
     ## 가을, 겨울
